@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/*html{
+    height: 100%;
+} */
+
+body{/*height: 100%*/
+    height:100vh
+}
+
+.div1 {
+    background-color: green;
+    width: %50;/*?bodynin in %50si*/
+    max-width : 600px;
+/*?body ini default bi yüksekliği olmadığı için buradaki %50 çalışmaz*/
+     height: 50%;
+}
+.div2{
+    background-color: tomato;
+    width:50%;/*?div1 in %50si*/
+   
+
+}
+.div3{
+    width: 50%/*?div2 in %50si*/
+    background-color: magenta;
+    /*?vw birimi doğrudan tarayıcının görünebilir uzunluğuna bağlıdır.yani parent a bağlıdır.*/
+    
+}
